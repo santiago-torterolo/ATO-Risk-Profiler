@@ -1,8 +1,12 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -16,11 +20,39 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 
-# Virtual Environments
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Environments
 .env
 .venv
 env/
@@ -29,29 +61,15 @@ ENV/
 env.bak/
 venv.bak/
 
-# Jupyter Notebooks
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# VS Code
+# VSCode
 .vscode/
+.idea/
 
-# Data
-data/*.csv
-data/*.pkl
-data/*.parquet
-data/*.json
-!data/README.md
+# Data outputs
+data/processed/*.png
+data/processed/*.pdf
+*.pkl
 
-# Models
-models/*.pkl
-models/*.h5
-models/*.joblib
-models/*.json
-
-# Logs
-*.log
-
-# Operating System
-.DS_Store
+# OS generated
+.DS__Store
 Thumbs.db
