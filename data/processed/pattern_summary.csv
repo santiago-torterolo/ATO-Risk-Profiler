@@ -1,0 +1,5 @@
+fraud_type,Attack Count,Avg Amount,Median Amount,Avg Amount Ratio,Avg 24h Velocity,Country Change Rate,Device Change Rate,Impossible Travel Rate,Unique Victims
+brute_force,451,5.425,5.52,0.272,1.157,0.155,0.177,0.004,301
+credential_stuffing,1197,205.058,110.89,1.967,1.177,0.172,0.545,0.003,455
+keylogger,590,57.228,32.305,0.786,1.164,0.154,0.176,0.0,348
+sim_swap,762,130.715,71.375,1.441,1.159,0.992,0.458,0.012,403
